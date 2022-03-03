@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style>
+		#registerCard {
+			box-shadow: 2px 2px 20px lightgray, -2px -2px 20px lightgray;	
+		}
+	</style>
+</head>
+<body style="height: 100vh" class="d-flex align-items-center">
+	<div class="container-fluid d-flex justify-content-center">
+		<div id="registerCard" class="col-sm-4">
+			<div class="card-header text-center"><h3 class="text-primary">Register</h3></div>
+			<div class="card-body">
+				<form action="#" class="d-grid gap-3">
+					<div class="form-group">
+						<label for="fullname">Full name:</label>
+						<input class="form-control" type="text" id="fullname" placeholder="Enter your full name">
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail:</label>
+						<input class="form-control" type="email" id="email" placeholder="Enter your e-mail address">
+					</div>
+					<div class="form-group">
+						<label for="password">Password:</label>
+						<input class="form-control" type="password" id="passsword" placeholder="Enter your new password">
+					</div>
+					<div class="form-group">
+						<label for="repeatPassword">Password:</label>
+						<input class="form-control" type="password" id="repeatPasssword" placeholder="Re-enter your new password">
+					</div>
+					<div class="form-group">
+						<input type="submit" class="btn btn-primary form-control" value="Register">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
